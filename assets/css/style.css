@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background:#131d07;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background:#5b850d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+.calculadora{
+  display: 400px;
+}
+.color-title{
+  color: #fff;
+}
+.display{
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 2rem;
+  border-radius: 0.2em;
+}
+.display:focus{
+  background-color: #fff;
+  color: #274b03;
+}
+.btn{
+  width: 100%;
+  height: 5rem;
+  border-radius: 1em;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color:#00ddd6;
+  border-style:solid;
+}
+.color-NaN{
+  background-color: #274b03;
+  color: #fff;
+}
+.color-Num{
+  background-color: #a7c818;
+  color: #fff;
+}
+.color-Equal{
+  background-color: #fdfc2a;
+  color: #274b03;
+}
